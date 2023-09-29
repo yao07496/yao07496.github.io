@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0">
+    <title>
+        Ian Yao Personal Website
+    </title>
+    <link rel ="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/2936017e95.js" crossorigin="anonymous"></script>
+</head>
+
+
+  <style>
+    .container {
+        display:block;
+    }
+    .manImg {
+        display: none;
+    }
+    .hover-text{
+        text-align: left;
+        line-height: 200px;
+        }
+
+    .hover-text:hover ~ .manImg {
+        display: block;  
+    }
+</style>
+
+
+<body>
+    <div id="header">
+        <div class ="container">
+            <nav>
+                <img src ="images/UST_Secondary_white.png" class ="logo" alt="UST White Logo">
+                <ul>
+                    <li><a href="./index.html"> Home </a></li>
+                    <li><a href="./resume.html"> Resume </a></li>
+                    <li><a href="#"> Projects </a></li>
+                    <li><a href="./fun.html"> Fun Stuff </a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <h1>Projects I have done:</h1>
+                <span>&nbsp</span>
+                <span>&nbsp</span>
+                <span>&nbsp</span>
+
+
+                <span class="container">
+                    <p class="hover-text">Biology Backyard Journal: Created a self-shot time lapse of any location of choice. In this case, my backyard from mid-fall to winter.</p>
+                   <img class="manImg" src="images/journal2.png" alt="biology class project image"/>
+                </span>
+
+                <span class="container">
+                    <p class="hover-text">Deep Learning: Project on deep reinforcement learning. </p>
+                   <img class="manImg" src="images/DeepReinforcment.png" alt="Deep class project image"/>
+                </span>
+                
+                <span class="container">
+                    <p class="hover-text">History: Completed work from a debate workshop about defunding the police.</p>
+                   <img class="manImg" src="images/history.png" alt="History class project image"/>
+                </span>
+
+            </div>
+        </div>
+    </div>
+  
+
+
+
+ 
+</body>
+</html>
